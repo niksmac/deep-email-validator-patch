@@ -14,7 +14,8 @@ type Options = {
   validateMx: boolean
   validateTypo: boolean
   validateDisposable: boolean
-  validateSMTP: boolean
+  validateSMTP: boolean,
+  helo?: string
 }
 
 type MailCheckOptions = {
